@@ -1,0 +1,21 @@
+.item{
+    /* height: 200px;
+    width: 200px; */
+    background-color: lightgreen;
+    border: 2px solid crimson;
+    padding: 30px;
+    border-radius: 10px;
+}
+.conatiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(2,300px); */
+    /* grid-template-columns: 20% 30% 30% 20%; */
+    /* grid-template-columns: 30% 50%; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: repeat(2,300px); */
+    gap: 10px;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    width: 80%;
+}
